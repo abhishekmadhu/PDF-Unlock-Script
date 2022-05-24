@@ -34,6 +34,7 @@ if __name__ == '__main__':
       print(f'trying {password}')
       decrypt_pdf('Downloads/Account Statement Banamali Madhu.pdf', 'decrypted.pdf', password)
       print('hooray it is done')
+      break
     except Exception as e:
       print(e)
     
