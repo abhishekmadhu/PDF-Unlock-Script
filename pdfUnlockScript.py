@@ -1,3 +1,6 @@
+"""Created this script to help dad unlock his bank account statement
+"""
+
 from PyPDF2 import PdfFileReader, PdfFileWriter
 from datetime import date, timedelta
 
